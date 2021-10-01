@@ -1,0 +1,100 @@
+body {
+  background-color: rgb(195 255 220);
+}
+
+h1 {
+  font-family: "Caveat", cursive;
+  font-size: 3em;
+
+  margin-bottom: auto;
+  margin-top: auto;
+}
+
+span {
+  color: #83fdfd;
+}
+
+footer {
+  color: white;
+  background-color: #22584d;
+}
+
+h1 {
+  color: whitesmoke;
+}
+
+.nav-buttons {
+  font-family: "Prompt", sans-serif;
+}
+
+.nav-button1 {
+  font-size: 1.2em;
+  background-color: #8effd8;
+}
+
+.nav-button2 {
+  font-size: 1.2em;
+  background-color: #64edff;
+}
+
+button:hover {
+  color: rgb(24 76 97);
+  box-shadow: 0px 0px 6px 1px;
+}
+
+button:active {
+  background-color: #70ff3c;
+}
+
+.nav-bar {
+  padding: 10px;
+  align-content: center;
+}
+
+.pokeCard {
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+.sticky-top {
+  background-color: rgb(80 163 130);
+}
+
+.card-subtitle {
+  padding-left: 0.3rem;
+}
+
+.header-buttons {
+  box-shadow: 1px 1px 8px #2e2e2ed5;
+}
+
+.card {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media (max-width: 700px) {
+  h1 {
+    font-size: 2.4em;
+  }
+  .nav-bar {
+    flex-direction: column;
+  }
+  .nav-buttons {
+    justify-content: center;
+  }
+}
+
+@media (max-width: 400px) {
+  h1 {
+    font-size: 2.3em;
+  }
+
+  .nav-button1 {
+    font-size: 0.9em;
+  }
+
+  .nav-button2 {
+    font-size: 0.9em;
+  }
+}
